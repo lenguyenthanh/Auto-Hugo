@@ -1,1 +1,5 @@
+# Vagrant
+.vagrant/
+
+# Hugo
 website/resources
