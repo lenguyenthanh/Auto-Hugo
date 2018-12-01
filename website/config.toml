@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Thanh Le"
 theme = "hermit"
 
-# enableGitInfo = true
+enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = false  # If there're Chinese/Japanese/Korean Languages in the content, enable this.
@@ -32,7 +32,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   homeSubtitle = "My personal website"
   footerCopyright = ""
   # gitUrl = "https://github.com/Someone/SomeRepo/commit/" # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  justifyContent = false  # Set "text-align: justify" to .content, requires extended version of Hugo
+  justifyContent = true  # Set "text-align: justify" to .content, requires extended version of Hugo
   # bgImg = ""  #  Homepage background-image URL
 
   # Social Icons
@@ -54,11 +54,6 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://gitlab.com/lenguyenthanh"
 
 [menu]
-
-  [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
-    weight = 10
 
   [[menu.main]]
     name = "About"
