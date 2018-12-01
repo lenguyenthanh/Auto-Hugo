@@ -1,3 +1,7 @@
 [submodule "website/themes/hermit"]
 	path = website/themes/hermit
 	url = git@github.com:Track3/hermit.git
+[submodule "website/public"]
+	path = website/public
+	url = git@github.com:lenguyenthanh/lenguyenthanh.github.io.git
+	branch = master
