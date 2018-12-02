@@ -54,6 +54,10 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
     url = "https://gitlab.com/lenguyenthanh"
 
 [menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 10
 
   [[menu.main]]
     name = "About"
