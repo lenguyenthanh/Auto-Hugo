@@ -12,4 +12,7 @@ Source code for my personal website
 - [x] Add blog page
 - [x] Write first blog
 - [x] Mirror repository with gitlab
+- [x] Claim website owner
+- [ ] Setup Google Analytics
+- [ ] Setup comment with disqus
 - [ ] Setup CI with gitlab
