@@ -12,7 +12,8 @@ Source code for my personal website
 - [x] Add blog page
 - [x] Write first blog
 - [x] Mirror repository with gitlab
-- [x] Claim website owner
+- [x] Claim website owner with rebase
+- [ ] Change claim method to dns
 - [ ] Setup Google Analytics
 - [ ] Setup comment with disqus
 - [ ] Setup CI with gitlab
