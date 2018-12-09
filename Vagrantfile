@@ -18,7 +18,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Throw in our provisioning script
   config.vm.provision :shell, :path => "./vagrant/bootstrap.sh", run: "once", privileged: false
-  config.vm.provision :shell, :path => "./vagrant/startup.sh", run: "always", privileged: false
 
   config.ssh.forward_agent = true
 end

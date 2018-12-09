@@ -18,7 +18,6 @@ sudo dpkg --force-all -i libstdc++6
 rm libstdc++6
 
 chmod +x src/website/runserver.sh
-
 # Go to project directory when ssh
 echo "cd src/website" >> /home/vagrant/.bashrc
 
