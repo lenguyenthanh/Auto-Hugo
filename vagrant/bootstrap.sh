@@ -12,7 +12,7 @@ sudo tar -C /usr/bin -xzf hugo.tgz
 rm hugo.tgz
 
 # This workaround is required to avoid libstdc++ errors while running "extended" hugo with SASS support.
-wget -q -O libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
+curl -l -o libstdc++6 http://security.ubuntu.com/ubuntu/pool/main/g/gcc-5/libstdc++6_5.4.0-6ubuntu1~16.04.10_amd64.deb
 sudo dpkg --force-all -i libstdc++6
 rm libstdc++6
 
