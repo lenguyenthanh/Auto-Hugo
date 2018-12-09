@@ -7,7 +7,6 @@ HUGO_VERSION="0.52"
 HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
 
 ## Install Hugo
-echo $HUGO_DOWNLOAD_URL
 curl -L -o hugo.tgz $HUGO_DOWNLOAD_URL
 sudo tar -C /usr/bin -xzf hugo.tgz
 rm hugo.tgz
