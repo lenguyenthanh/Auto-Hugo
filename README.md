@@ -8,16 +8,17 @@ Source code for my personal website
 * Vagrant for development environment
 * Staticman for comments
 
-## Todo
+## Technical Todo
 - [x] Update about page
 - [x] Add blog page
 - [x] Write first blog
 - [x] Mirror repository with gitlab
 - [x] Claim website owner with rebase.io
-- [ ] Change claim method to dns
-- [ ] Setup Google Analytics
+- [x] Change claim method to dns
 - [ ] Setup comment with staticman
+- [ ] Setup Google Analytics
 - [ ] Setup CI with gitlab
+- [ ] My own comment functionality
 
 ## Tutorial and articles
 
