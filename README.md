@@ -6,7 +6,7 @@ Source code for my personal website
 * Hugo as static generator tool.
 * Gitlab CI with Docker.
 * Vagrant for development environment
-* Staticman for comments
+* Staticman for comments for now then replae by DIY solution
 
 ## Technical Todo
 - [x] Update about page
@@ -15,10 +15,11 @@ Source code for my personal website
 - [x] Mirror repository with gitlab
 - [x] Claim website owner with rebase.io
 - [x] Change claim method to dns
+- [ ] Setup CI with gitlab
 - [ ] Setup comment with staticman
 - [ ] Setup Google Analytics
-- [ ] Setup CI with gitlab
 - [ ] My own comment functionality
+- [ ] Use Jane theme instead of Hermit
 
 ## Tutorial and articles
 
