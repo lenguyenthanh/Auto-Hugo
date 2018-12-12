@@ -5,3 +5,6 @@
 	path = website/public
 	url = git@github.com:lenguyenthanh/lenguyenthanh.github.io.git
 	branch = master
+[submodule "website/themes/hugo-theme-jane"]
+	path = website/themes/hugo-theme-jane
+	url = https://github.com/xianmin/hugo-theme-jane.git
