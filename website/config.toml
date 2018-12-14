@@ -29,7 +29,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "My personal website"
+  homeSubtitle = "A software programming loves running and playing chess"
   footerCopyright = ""
   # gitUrl = "https://github.com/Someone/SomeRepo/commit/" # Prefix of link to the git commit detail page. GitInfo must be enabled.
   justifyContent = true  # Set "text-align: justify" to .content, requires extended version of Hugo
