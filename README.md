@@ -17,9 +17,9 @@ Source code for my personal website
 - [x] Mirror repository with gitlab
 - [x] Claim website owner with rebase.io
 - [x] Change claim method to dns
-- [ ] Setup comment with staticman
-- [ ] Use Jane theme instead of Hermit
 - [ ] Change website/ to src/
+- [ ] Use Jane theme instead of Hermit
+- [ ] Setup comment with staticman
 - [ ] Restructure content folder follow Best Practice
 - [ ] Use Alapine for Vagrant
 - [ ] Make vagrant more general so other can use
@@ -29,7 +29,11 @@ Source code for my personal website
 
 ## Resources
 - [Hugo](https://gohugo.io)
-- [Jane theme](https://github.com/xianmin/hugo-theme-jane)
-- [Hermit theme](https://github.com/Track3/hermit)
 - [Hugo Best Pratice](https://github.com/spech66/hugo-best-practices)
 - [Setup staticman](https://networkhobo.com/2017/12/30/hugo-staticman-nested-replies-and-e-mail-notifications/)
+
+## Current theme
+- [Hermit theme](https://github.com/Track3/hermit)
+
+## Used theme
+- [Jane theme](https://github.com/xianmin/hugo-theme-jane)
