@@ -11,12 +11,8 @@ Source code for my personal website
 * Staticman for comments.
 
 ## Todo
-- [x] Update about page
-- [x] Add blog page
-- [x] Write first blog
-- [x] Mirror repository with gitlab
-- [x] Claim website owner with rebase.io
-- [x] Change claim method to dns
+- [ ] Update About page with what is in the website
+- [ ] Make the first blog post better
 - [ ] Change website/ to src/
 - [ ] Use Jane theme instead of Hermit
 - [ ] Setup comment with staticman
@@ -26,6 +22,12 @@ Source code for my personal website
 - [ ] Setup CI with gitlab
 - [ ] Setup Google Analytics or my own analytics.
 - [ ] My own comment functionality
+- [x] Update about page
+- [x] Add blog page
+- [x] Write first blog
+- [x] Mirror repository with gitlab
+- [x] Claim website owner with rebase.io
+- [x] Change claim method to dns
 
 ## Resources
 - [Hugo](https://gohugo.io)
