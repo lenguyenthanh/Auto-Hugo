@@ -13,7 +13,6 @@ Source code for my personal website
 ## Todo
 - [ ] Update About page with what is in the website
 - [ ] Make the first blog post better
-- [ ] Change website/ to src/
 - [ ] Use Jane theme instead of Hermit
 - [ ] Setup comment with staticman
 - [ ] Restructure content folder follow Best Practice
@@ -22,6 +21,7 @@ Source code for my personal website
 - [ ] Setup CI with gitlab
 - [ ] Setup Google Analytics or my own analytics.
 - [ ] My own comment functionality
+- [x] Change website/ to src/
 - [x] Update about page
 - [x] Add blog page
 - [x] Write first blog

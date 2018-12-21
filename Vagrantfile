@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 1313, host: 1313
   config.vm.hostname = "Thanhs-blog"
   config.vm.define "Thanhs Blog'" do |base|
-  config.vm.synced_folder ".", "/home/vagrant/src"
+  config.vm.synced_folder ".", "/home/vagrant/project"
   end
 
   config.vm.provider "virtualbox" do |vb|

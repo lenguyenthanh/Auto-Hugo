@@ -1,10 +1,9 @@
 [submodule "website/themes/hermit"]
-	path = website/themes/hermit
+	path = src/themes/hermit
 	url = git@github.com:Track3/hermit.git
-[submodule "website/public"]
-	path = website/public
-	url = git@github.com:lenguyenthanh/lenguyenthanh.github.io.git
-	branch = master
 [submodule "website/themes/hugo-theme-jane"]
-	path = website/themes/hugo-theme-jane
+	path = src/themes/hugo-theme-jane
 	url = https://github.com/xianmin/hugo-theme-jane.git
+[submodule "src/public"]
+	path = src/public
+	url = git@github.com:lenguyenthanh/lenguyenthanh.github.io.git
