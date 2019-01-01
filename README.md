@@ -11,12 +11,13 @@ Source code for my personal website
 * Staticman for comments.
 
 ## Todo
-- [ ] Update About page with what is in the website
+- [ ] Update About page with what is in the website and add my public key
+- [ ] Add license
 - [ ] Make the first blog post better
 - [ ] Use Jane theme instead of Hermit
 - [ ] Setup comment with staticman
 - [ ] Restructure content folder follow Best Practice
-- [ ] Use Alapine for Vagrant
+- [ ] Use Alpine for Vagrant
 - [ ] Make vagrant more general so other can use
 - [ ] Setup CI with gitlab
 - [ ] Setup Google Analytics or my own analytics.
