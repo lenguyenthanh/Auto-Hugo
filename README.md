@@ -35,8 +35,9 @@ Source code for my personal website
 - [Hugo Best Pratice](https://github.com/spech66/hugo-best-practices)
 - [Setup staticman](https://networkhobo.com/2017/12/30/hugo-staticman-nested-replies-and-e-mail-notifications/)
 
-## Current theme
-- [Hermit theme](https://github.com/Track3/hermit)
 
 ## Used theme
-- [Jane theme](https://github.com/xianmin/hugo-theme-jane)
+- [Hermit](https://github.com/Track3/hermit)
+- [Jane](https://github.com/xianmin/hugo-theme-jane)
+- [Coder](https://github.com/luizdepra/hugo-coder/)
+
