@@ -2,4 +2,5 @@
 .vagrant/
 
 # Hugo
-website/resources
+src/themes/
+

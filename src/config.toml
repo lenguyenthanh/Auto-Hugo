@@ -1,65 +1,71 @@
 baseURL = "https://lenguyenthanh.com"
 languageCode = "en-us"
 title = "Thanh Le"
-theme = "hermit"
+theme = "coder-portfolio" # Set the theme.
+languagecode = "en" # The site’s language code used to generate RSS.
+defaultcontentlanguage = "en" # The default content language.
 
-enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-hasCJKLanguage = false  # If there're Chinese/Japanese/Korean Languages in the content, enable this.
-rssLimit = 10  # Maximum number of items in the RSS feed.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-# disqusShortname = "yourdiscussshortname"
+paginate = 20 # Default number of pages per page in pagination.
 
-[author]
-  name = "Thanh Le"
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+pygmentsUseClasses = true # new add
 
-[blackfriday]
-  hrefTargetBlank = true
 
-[taxonomies]
-  tag = "tags"
-  category = ""  # Categories are disabled by default.
+[params] # theme parameters
+    author = "Thanh Le" # Author's name.
+    info = "Software Engineer" # Author's job title or info.
+    description = "Thanh Le's personal website" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+    #footercontent = "Enter a text here." # Add footer content
+    #fixedbarContent = "Do you want to know me more private?→" # Add fixedbar content
+    #fixedbarContentAfter = "Thank You! Please share it if you like it→" # Add fixedbar content after click
 
-  # themeColor = "#494f5c"  # Theme color in meta tags.
-  homeSubtitle = "A software programming loves running and playing chess"
-  footerCopyright = ""
-  # gitUrl = "https://github.com/Someone/SomeRepo/commit/" # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  justifyContent = true  # Set "text-align: justify" to .content, requires extended version of Hugo
-  # bgImg = ""  #  Homepage background-image URL
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/lenguyenthanh"
+    # Custom CSS
+    custom_css = []
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/lenguyenthanh"
+    # Alignment of Mobile Menu items
+    itemscentered = true
 
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/lenguyenthanh"
+    # RTL support
+    rtl = false
 
-  [[params.social]]
-    name = "gitlab"
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/lenguyenthanh/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/lenguyenthanh/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/narolenguyenthanh/"
+[[params.social]]
+    name = "Gitlab"
+    weight = 4
     url = "https://gitlab.com/lenguyenthanh"
 
-[menu]
-  [[menu.main]]
+# Menu links
+[[menu.main]]
     name = "Blog"
-    url = "/blog/"
-    weight = 10
-
-  [[menu.main]]
+    weight = 1
+    url  = "blog"
+[[menu.main]]
     name = "About"
-    url = "/about/"
-    weight = 20
+    weight = 2
+    url = "about"
