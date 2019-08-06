@@ -1,4 +1,0 @@
-[submodule "src/public"]
-	path = src/public
-	url = git@github.com:lenguyenthanh/lenguyenthanh.github.io.git
-  branch = master
