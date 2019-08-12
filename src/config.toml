@@ -54,7 +54,7 @@ pygmentsUseClasses = true # new add
 [[params.social]]
     name = "LinkedIn"
     weight = 3
-    url = "https://www.linkedin.com/in/narolenguyenthanh/"
+    url = "https://www.linkedin.com/in/lenguyenthanh/"
 [[params.social]]
     name = "Gitlab"
     weight = 4
