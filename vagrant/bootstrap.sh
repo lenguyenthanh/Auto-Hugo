@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get upgrade --assume-yes
 sudo apt-get install --assume-yes git curl libstdc++6
 
-HUGO_VERSION="0.56.3"
+HUGO_VERSION="0.57.2"
 HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
 
 ## Install Hugo
