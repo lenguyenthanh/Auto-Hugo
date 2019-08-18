@@ -3,13 +3,13 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
   config.vm.network "forwarded_port", guest: 1313, host: 1313
-  config.vm.hostname = "Thanhs-blog"
-  config.vm.define "Thanhs Blog'" do |base|
+  config.vm.hostname = "Auto Hugo"
+  config.vm.define "Auto Hugo" do |base|
   config.vm.synced_folder ".", "/home/vagrant/project"
   end
 
   config.vm.provider "virtualbox" do |vb|
-    vb.name = "Thanhs Blog"
+    vb.name = "Auto Hugo"
     vb.gui = false
     vb.memory = "512"
     vb.cpus = 1
