@@ -3,7 +3,7 @@ sudo apt-get update
 sudo apt-get upgrade --assume-yes
 sudo apt-get install --assume-yes git curl libstdc++6
 
-HUGO_VERSION="0.57.2"
+HUGO_VERSION="0.58.2"
 HUGO_DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
 
 ## Install Hugo
@@ -17,6 +17,8 @@ sudo dpkg --force-all -i libstdc++6
 rm libstdc++6
 
 chmod +x project/src/runserver.sh
+chmod +x project/src/build.sh
+
 # Go to project directory when ssh
 echo "cd project/src" >> /home/vagrant/.bashrc
 
